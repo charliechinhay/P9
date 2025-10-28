@@ -87,6 +87,9 @@ console.log(giveMeRandom(10));
 */
 
 /* SCRIVI QUI LA TUA RISPOSTA */
+function area(l1, l2) {
+  return l1 * l2;
+}
 
 /* ESERCIZIO 2
  Scrivi una funzione chiamata "crazyDiff" che calcola la differenza assoluta tra un numero fornito e 19.
