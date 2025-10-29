@@ -59,7 +59,7 @@ function upperFirst(string) {
   }
   return words.join(" ");
 }
-console.log(upperFirst("ciao motherfucker"));
+console.log(upperFirst("hola que tal como te va?"));
 
 /* ESERCIZIO 5
  Scrivi una funzione chiamata "giveMeRandom", che accetta come parametro un numero chiamato n e ritorna un array contenente n numeri random contenuti tra 0 e 10.
@@ -97,6 +97,15 @@ function area(l1, l2) {
 */
 
 /* SCRIVI QUI LA TUA RISPOSTA */
+function crazyDiff(num) {
+  let diff = Math.abs(num - 19);
+  if (diff > 19) {
+    return diff * 3;
+  }
+  return diff;
+}
+
+console.log(crazyDiff(200));
 
 /* ESERCIZIO 3
  Scrivi una funzione chiamata "codify" che accetta una stringa come parametro.
@@ -112,7 +121,12 @@ function area(l1, l2) {
 */
 
 /* SCRIVI QUI LA TUA RISPOSTA */
-
+function check3and7(num) {
+  if (num > 0 && (num % 3 === 0 || num % 7 === 0)) {
+    return true;
+  }
+  return false;
+}
 /* ESERCIZIO 5
  Scrivi una funzione chiamata "cutString", che accetta una stringa come parametro e la ritorna senza il primo e l'ultimo carattere.
 */
