@@ -113,6 +113,13 @@ console.log(crazyDiff(200));
 */
 
 /* SCRIVI QUI LA TUA RISPOSTA */
+function codify(stringa) {
+  if (stringa.startsWith("code")) {
+    return stringa;
+  }
+  return "code" + stringa;
+}
+console.log(codify("codehellow"));
 
 /* ESERCIZIO 4
  Scrivi una funzione chiamata "check3and7" la quale accetta un numero intero positivo come parametro.
@@ -132,3 +139,7 @@ function check3and7(num) {
 */
 
 /* SCRIVI QUI LA TUA RISPOSTA */
+function cutString(stringa) {
+  return stringa.slice(1, -1);
+}
+console.log(cutString("hellow"));
